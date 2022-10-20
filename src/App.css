@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz@0,8..144;1,8..144&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: aquamarine;
+  font-family: 'Roboto Serif', serif;
+}
