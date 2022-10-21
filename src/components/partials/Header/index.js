@@ -6,7 +6,6 @@ import { isLogged } from '../../../helpers/AuthHandler.js'
 const Header = () => {
   let logged = isLogged();
 
-  
   return (
     <HeaderArea>
         <div className="Container">
@@ -32,7 +31,6 @@ const Header = () => {
                                <link to="post-an-ad" className="button">
                                  Postar um Anuncio </link>
                             </li> 
-      
                           </>
                       }
                       {!logged &&
@@ -47,12 +45,9 @@ const Header = () => {
                                   <link to="signin" className="button">
                                   Postar um Anuncio </link>
                               </li> 
-              
                           </>
                       }
-                      
-                     
-                   </ul>
+                    </ul>
                 </nav>       
         </div>
     </HeaderArea>
